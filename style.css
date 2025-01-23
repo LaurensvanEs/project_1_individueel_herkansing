@@ -1,0 +1,130 @@
+body {
+    font-family: "inter", serif; /*Imports font*/
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #a6c2fe;
+}
+
+.image-wrapper {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 100px;
+    height: auto;
+    display: block; /* Ensure the image is treated as a block element */
+    margin-left: 25px;
+    padding-top: 5%;
+    z-index: 3;
+}
+
+.header-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 375px;
+    z-index: 1;
+}
+
+.header-top-text {
+    top: 20px;
+    position: relative;
+    text-align: center;
+    font-weight: 800;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px;
+    z-index: 3;
+}
+
+#initiatief-top {
+    margin-top: -35px;
+    border-bottom-left-radius: 40px 25px;
+    border-bottom-right-radius: 40px 25px;
+}
+
+#kaart-top {
+    margin-top: -35px;
+    border-bottom-left-radius: 40px 25px;
+    border-bottom-right-radius: 40px 25px;
+}
+
+
+main {
+    padding-top: 90px;
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+main img {
+    max-width: 340px;
+}
+
+main p {
+    text-align: left;
+    padding: 0 8%;
+}
+
+.alt-h2 {
+    text-align: left;
+    padding: 0 5%;
+    font-variant: small-caps;
+    font-size: 25px;
+}
+
+.initiatief-img {
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.cta-index {
+    background-color: #8be036; /* Green */
+    border: 2px solid black;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px;
+}
+
+nav {
+    background-color: black;
+    position: fixed;
+    bottom: 30px; /* Adjust the distance from the bottom */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    width: 80%; 
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1); /* Add a subtle shadow for the floating effect */
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    margin: 0 5px;
+    padding: 8px 12px; /* Add padding for better spacing */
+}
+
