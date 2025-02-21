@@ -4,8 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #a6c2fe;
-    overflow: hidden;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .image-wrapper {
